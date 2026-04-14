@@ -77,7 +77,7 @@ def run_kimi(topic: str, prompt: str) -> dict:
             capture_output=True,
             text=True,
             env=env,
-            timeout=900,
+            timeout=1800,
             encoding="utf-8",
             errors="replace",
         )
@@ -169,7 +169,7 @@ def run_codex(topic: str, prompt: str) -> dict:
             ],
             capture_output=True,
             text=True,
-            timeout=900,
+            timeout=1800,
             encoding="utf-8",
             errors="replace",
         )
