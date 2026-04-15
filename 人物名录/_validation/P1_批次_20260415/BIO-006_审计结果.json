@@ -73,11 +73,11 @@
     "rel_path": "中下层文官/海瑞.md",
     "name": "海瑞",
     "category": "中下层文官",
-    "lines": 450,
+    "lines": 318,
     "rule1": {
       "pass": true,
-      "count": 47,
-      "kw_hits": 148
+      "count": 4,
+      "kw_hits": 89
     },
     "rule2": {
       "pass": true,
@@ -86,12 +86,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 19
+      "content": 13
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 39
+      "count": 10
     },
     "rule5": {
       "pass": true,
@@ -101,7 +101,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 450
+      "lines": 318
     }
   },
   {
@@ -423,11 +423,46 @@
     "rel_path": "后妃宗室/王喜姐.md",
     "name": "王喜姐",
     "category": "后妃宗室",
-    "lines": 214,
+    "lines": 279,
     "rule1": {
       "pass": true,
-      "count": 22,
-      "kw_hits": 63
+      "count": 2,
+      "kw_hits": 81
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 13
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 10
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 279
+    }
+  },
+  {
+    "rel_path": "后妃宗室/郑贵妃.md",
+    "name": "郑贵妃",
+    "category": "后妃宗室",
+    "lines": 199,
+    "rule1": {
+      "pass": true,
+      "count": 32,
+      "kw_hits": 90
     },
     "rule2": {
       "pass": true,
@@ -441,56 +476,17 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 21
+      "count": 8
     },
     "rule5": {
       "pass": true,
-      "missing": [
-        "字号"
-      ],
+      "missing": [],
       "has_section": true
     },
     "rule6": {
       "pass": true,
-      "status": "ok",
-      "lines": 214
-    }
-  },
-  {
-    "rel_path": "后妃宗室/郑贵妃.md",
-    "name": "郑贵妃",
-    "category": "后妃宗室",
-    "lines": 321,
-    "rule1": {
-      "pass": true,
-      "count": 19,
-      "kw_hits": 68
-    },
-    "rule2": {
-      "pass": true,
-      "offending": []
-    },
-    "rule3": {
-      "pass": true,
-      "title": "存疑 & 待查",
-      "content": 10
-    },
-    "rule4": {
-      "pass": true,
-      "title": "来源汇总",
-      "count": 32
-    },
-    "rule5": {
-      "pass": true,
-      "missing": [
-        "字号"
-      ],
-      "has_section": true
-    },
-    "rule6": {
-      "pass": true,
-      "status": "ok",
-      "lines": 321
+      "status": "short",
+      "lines": 199
     }
   },
   {
@@ -1022,11 +1018,11 @@
     "rel_path": "帝王/朱翊钧.md",
     "name": "朱翊钧",
     "category": "帝王",
-    "lines": 251,
+    "lines": 311,
     "rule1": {
       "pass": true,
-      "count": 27,
-      "kw_hits": 70
+      "count": 21,
+      "kw_hits": 103
     },
     "rule2": {
       "pass": true,
@@ -1035,12 +1031,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 8
+      "content": 10
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 14
+      "count": 9
     },
     "rule5": {
       "pass": true,
@@ -1050,7 +1046,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 251
+      "lines": 311
     }
   },
   {
@@ -1232,11 +1228,11 @@
     "rel_path": "文人学者/李时珍.md",
     "name": "李时珍",
     "category": "文人学者",
-    "lines": 261,
+    "lines": 489,
     "rule1": {
       "pass": true,
-      "count": 4,
-      "kw_hits": 19
+      "count": 16,
+      "kw_hits": 31
     },
     "rule2": {
       "pass": true,
@@ -1245,12 +1241,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 1
+      "content": 31
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 14
+      "count": 12
     },
     "rule5": {
       "pass": true,
@@ -1260,7 +1256,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 261
+      "lines": 489
     }
   },
   {
@@ -1547,11 +1543,11 @@
     "rel_path": "武将/李如松.md",
     "name": "李如松",
     "category": "武将",
-    "lines": 161,
+    "lines": 146,
     "rule1": {
       "pass": true,
-      "count": 5,
-      "kw_hits": 43
+      "count": 10,
+      "kw_hits": 62
     },
     "rule2": {
       "pass": true,
@@ -1560,12 +1556,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 6
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 9
+      "count": 8
     },
     "rule5": {
       "pass": true,
@@ -1575,7 +1571,7 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 161
+      "lines": 146
     }
   },
   {
@@ -1759,11 +1755,11 @@
     "rel_path": "武将/马芳.md",
     "name": "马芳",
     "category": "武将",
-    "lines": 171,
+    "lines": 215,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 45
+      "kw_hits": 42
     },
     "rule2": {
       "pass": true,
@@ -1772,12 +1768,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 7
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 15
+      "count": 16
     },
     "rule5": {
       "pass": true,
@@ -1786,8 +1782,8 @@
     },
     "rule6": {
       "pass": true,
-      "status": "short",
-      "lines": 171
+      "status": "ok",
+      "lines": 215
     }
   },
   {
@@ -2004,11 +2000,11 @@
     "rel_path": "阁臣重臣/张居正.md",
     "name": "张居正",
     "category": "阁臣重臣",
-    "lines": 420,
+    "lines": 199,
     "rule1": {
       "pass": true,
-      "count": 22,
-      "kw_hits": 84
+      "count": 2,
+      "kw_hits": 136
     },
     "rule2": {
       "pass": true,
@@ -2017,12 +2013,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 9
+      "content": 7
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 24
+      "count": 9
     },
     "rule5": {
       "pass": true,
@@ -2031,8 +2027,8 @@
     },
     "rule6": {
       "pass": true,
-      "status": "ok",
-      "lines": 420
+      "status": "short",
+      "lines": 199
     }
   },
   {
