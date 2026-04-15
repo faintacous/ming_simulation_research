@@ -5,10 +5,10 @@ Ming Simulation Research Pipeline
 三段流水线：Kimi（初稿）+ Codex（校验）→ 供 Opus 合并
 
 用法：
-    python research_pipeline.py 僧侣
-    python research_pipeline.py 僧侣 --prompt "自定义研究提示"
-    python research_pipeline.py 僧侣 --kimi-only
-    python research_pipeline.py 僧侣 --codex-only
+    python tools/research_pipeline.py 僧侣
+    python tools/research_pipeline.py 僧侣 --prompt "自定义研究提示"
+    python tools/research_pipeline.py 僧侣 --kimi-only
+    python tools/research_pipeline.py 僧侣 --codex-only
 """
 
 import subprocess
@@ -129,23 +129,70 @@ def run_kimi(topic: str, prompt: str) -> dict:
                     "source": "kimi",
                 }
 
-            print(f"  [Kimi] 失败：未找到输出")
+            print(f"  [Kimi] 失败：未找到输出（returncode={result.returncode}）")
+            _print_kimi_tails(result.stdout, result.stderr)
             return {
                 "success": False,
                 "error": "No output file or extractable content",
                 "elapsed": elapsed,
                 "source": "kimi",
                 "raw_output_path": str(raw_path),
+                "stdout_tail": (result.stdout or "")[-500:],
+                "stderr_tail": (result.stderr or "")[-500:],
+                "returncode": result.returncode,
             }
 
-    except subprocess.TimeoutExpired:
+    except subprocess.TimeoutExpired as e:
         elapsed = time.time() - start
         print(f"  [Kimi] 超时（{elapsed:.0f}s）")
-        return {"success": False, "error": "Timeout", "elapsed": elapsed, "source": "kimi"}
+        # TimeoutExpired 的 .stdout/.stderr 可能是 bytes（即使 text=True 在超时路径上不一定解码）
+        to_stdout = _coerce_text(getattr(e, "stdout", None))
+        to_stderr = _coerce_text(getattr(e, "stderr", None))
+        _print_kimi_tails(to_stdout, to_stderr)
+        return {
+            "success": False,
+            "error": "Timeout",
+            "elapsed": elapsed,
+            "source": "kimi",
+            "stdout_tail": (to_stdout or "")[-500:],
+            "stderr_tail": (to_stderr or "")[-500:],
+        }
     except Exception as e:
         elapsed = time.time() - start
         print(f"  [Kimi] 异常：{e}")
-        return {"success": False, "error": str(e), "elapsed": elapsed, "source": "kimi"}
+        # 如果异常对象上挂了 stdout/stderr（如 CalledProcessError），也打印出来
+        ex_stdout = _coerce_text(getattr(e, "stdout", None))
+        ex_stderr = _coerce_text(getattr(e, "stderr", None))
+        if ex_stdout is not None or ex_stderr is not None:
+            _print_kimi_tails(ex_stdout, ex_stderr)
+        return {
+            "success": False,
+            "error": str(e),
+            "elapsed": elapsed,
+            "source": "kimi",
+            "stdout_tail": (ex_stdout or "")[-500:] if ex_stdout else "",
+            "stderr_tail": (ex_stderr or "")[-500:] if ex_stderr else "",
+        }
+
+
+def _coerce_text(value) -> str | None:
+    """subprocess 的 .stdout/.stderr 在超时/异常路径上可能是 bytes，统一转 str。"""
+    if value is None:
+        return None
+    if isinstance(value, bytes):
+        try:
+            return value.decode("utf-8", errors="replace")
+        except Exception:
+            return repr(value)
+    return str(value)
+
+
+def _print_kimi_tails(stdout: str | None, stderr: str | None) -> None:
+    """统一打印 Kimi subprocess 的 stdout/stderr 末尾 500 字符。"""
+    stdout_tail = (stdout or "")[-500:] if stdout else ""
+    stderr_tail = (stderr or "")[-500:] if stderr else ""
+    print(f"  [Kimi stderr tail] {stderr_tail if stderr_tail else '(empty)'}")
+    print(f"  [Kimi stdout tail] {stdout_tail if stdout_tail else '(empty)'}")
 
 
 # ── Codex 调用 ───────────────────────────────────────

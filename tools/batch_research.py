@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-批量调度 research_pipeline.py，控制并发上限。
+批量调度 tools/research_pipeline.py，控制并发上限。
 
 用法：
-    python batch_research.py              # 默认并发 3
-    python batch_research.py --workers 2  # 并发 2
-    python batch_research.py --dry-run    # 只列出待处理列表
+    python tools/batch_research.py              # 默认并发 3
+    python tools/batch_research.py --workers 2  # 并发 2
+    python tools/batch_research.py --dry-run    # 只列出待处理列表
 """
 
 import subprocess
@@ -17,7 +17,7 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 OUTPUT_DIR = Path("G:/AIDev/ming_simulation_research/角色视角")
-PIPELINE = Path("G:/AIDev/ming_simulation_research/research_pipeline.py")
+PIPELINE = Path("G:/AIDev/ming_simulation_research/tools/research_pipeline.py")
 
 # ── 全部 45 个角色 ──────────────────────────────────
 ALL_ROLES = [

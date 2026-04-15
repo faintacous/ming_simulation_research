@@ -1,0 +1,7 @@
+# 临时与调试产物
+tmp/
+*.bak
+audit_tmp*.json
+
+# Windows 保留字误创建
+nul
