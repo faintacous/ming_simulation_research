@@ -1,0 +1,75 @@
+{
+  "audit_time": "2026-04-16",
+  "total_scanned": 67,
+  "findings": {
+    "replacement_char": [
+      {
+        "file": "人物名录/外国人物/努尔哈赤.md",
+        "line": 18,
+        "col": 11,
+        "context": "- 字号：满语ᠨᡠᡵ�ᠠᴴ（努尔哈赤），尊号淑勒贝勒（聪睿王）",
+        "in_meta_section": false
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 176,
+        "col": 13,
+        "context": "  - 第 79 行 `�承/門生` → `師承/門生`\r",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 177,
+        "col": 13,
+        "context": "  - 第 82 行 `�大猷` → `俞大猷`\r",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 178,
+        "col": 13,
+        "context": "  - 第 87 行 `�嵩（1480—1567）` → `嚴嵩（",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 179,
+        "col": 14,
+        "context": "  - 第 105 行 `�納徐渭` → `招納徐渭`\r",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 180,
+        "col": 14,
+        "context": "  - 第 107 行 `�嵩書信門` → `嚴嵩書信門`\r",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 182,
+        "col": 14,
+        "context": "  - 第 144 行 `�宗憲與徐渭` → `胡宗憲與徐渭`\r",
+        "in_meta_section": true
+      },
+      {
+        "file": "人物名录/武将/胡宗宪.md",
+        "line": 184,
+        "col": 26,
+        "context": "第 118 行、第 144 行另一处 `�宗憲` 已随上下文 Edit 覆盖）\r",
+        "in_meta_section": true
+      }
+    ],
+    "shell_residue": [],
+    "anomaly_chars": [],
+    "file_anomaly": []
+  },
+  "summary": {
+    "clean_files": 65,
+    "polluted_files": 2,
+    "total_issues": 8,
+    "real_polluted_files": 1,
+    "replacement_char_real": 1,
+    "replacement_char_meta_ref": 7
+  }
+}
