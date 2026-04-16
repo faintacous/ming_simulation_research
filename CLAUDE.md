@@ -150,9 +150,27 @@
 
 #### Kimi
 
-- **日配额约 17–18 次调用**。超过后触发 `rate_limit_reached_error`，当日无法继续调用。规划批处理任务时必须预留配额，或拆分到跨日执行。
+- **日配额约 17–18 次调用**（粗估，**实测可能 3-10 次就打穿**，取决于 Step 分裂和并发）。超过后触发 `rate_limit_reached_error`，当日无法继续调用。规划批处理任务时必须预留配额，或拆分到跨日执行。
 - **擅长长稿综合**：单次产出稳定在 300–650 行，结构完整，案例丰富。
 - **弱点**：对"已有文件里的具体一句话是否有原文支撑"这类精细核对任务不擅长；对跨文件矛盾检测没有稳定能力。
+
+- **日配额观测修正（2026-04-16）**：原 CLAUDE.md 写"约 17–18 次"为粗估；实测 A 线 3 人 Kimi 重建成功后，再铺 10 人 3 并发代理即触发 429。实际可触发因素：
+  - Kimi Agent 内部 Step 分裂：单次人工感知的"调用"可能在后端消耗 2–5 次
+  - 并发代理叠加账号级配额（并发无加速，反而快速打穿）
+  - **新规则**：Kimi 建档任务**单代理串行**，不并发多代理；铺量前主窗口先做 1 次 ping 探测（一个简短 kimi 调用看是否 429），推荐使用 `tools/kimi_safe_call.sh --ping` 或 `tools/kimi_safe_call.py --ping`
+
+- **Windows 平台调用规范（2026-04-16）**：
+  - 环境变量必设：`PYTHONIOENCODING=utf-8` + `PYTHONUTF8=1`
+  - kimi-cli rich 渲染字符（• ◄ ► 等）在 GBK 控制台会 `UnicodeEncodeError: 'gbk' codec can't encode` 崩溃
+  - 优先用 `tools/research_pipeline.py` 的 `run_kimi()` 接口（已处理 GBK）或本次沉淀的 `tools/kimi_safe_call.sh` / `tools/kimi_safe_call.py` 包装
+  - 让 Kimi 自写 .md 到工作目录，而不是 stdout pipe 给 tee（stdout 含 rich 字符，pipe 到 tee/GBK 终端必崩）
+
+- **跨工具 `/tmp` 路径陷阱（2026-04-16 发现）**：
+  - Git Bash 的 `/tmp` → `E:\System_Temp\`（Cygwin/MSYS mount）
+  - Claude Code Write 工具的 `/tmp` → `G:\tmp\`（相对根盘）
+  - Python subprocess 起的 `/tmp` → `G:\tmp\`（Windows 解释）
+  - 三者解释不同字符串 → 跨工具协作时 `/tmp/xxx.md` 指向三个不同位置，导致 `FileNotFoundError`
+  - **绝对禁用 `/tmp` 字符串跨工具传递**；临时文件统一放项目内 `tmp/` 目录（相对 `G:/AIDev/Ming_Simulation_Research/`）；代理间传递路径必须用绝对路径或项目相对路径
 
 #### Codex
 
