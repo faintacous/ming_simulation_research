@@ -3,11 +3,11 @@
     "rel_path": "中下层文官/方逢时.md",
     "name": "方逢时",
     "category": "中下层文官",
-    "lines": 320,
+    "lines": 324,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 64
+      "kw_hits": 70
     },
     "rule2": {
       "pass": true,
@@ -31,7 +31,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 320
+      "lines": 324
     }
   },
   {
@@ -73,11 +73,11 @@
     "rel_path": "中下层文官/海瑞.md",
     "name": "海瑞",
     "category": "中下层文官",
-    "lines": 450,
+    "lines": 352,
     "rule1": {
       "pass": true,
-      "count": 47,
-      "kw_hits": 148
+      "count": 14,
+      "kw_hits": 113
     },
     "rule2": {
       "pass": true,
@@ -86,12 +86,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 19
+      "content": 13
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 39
+      "count": 10
     },
     "rule5": {
       "pass": true,
@@ -101,18 +101,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 450
+      "lines": 352
     }
   },
   {
     "rel_path": "中下层文官/潘季驯.md",
     "name": "潘季驯",
     "category": "中下层文官",
-    "lines": 363,
+    "lines": 398,
     "rule1": {
       "pass": true,
-      "count": 4,
-      "kw_hits": 19
+      "count": 7,
+      "kw_hits": 36
     },
     "rule2": {
       "pass": true,
@@ -121,12 +121,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 9
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 6
+      "count": 14
     },
     "rule5": {
       "pass": true,
@@ -136,7 +136,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 363
+      "lines": 398
     }
   },
   {
@@ -213,11 +213,11 @@
     "rel_path": "中下层文官/顾宪成.md",
     "name": "顾宪成",
     "category": "中下层文官",
-    "lines": 413,
+    "lines": 425,
     "rule1": {
       "pass": true,
-      "count": 21,
-      "kw_hits": 67
+      "count": 23,
+      "kw_hits": 70
     },
     "rule2": {
       "pass": true,
@@ -231,7 +231,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 30
+      "count": 31
     },
     "rule5": {
       "pass": true,
@@ -241,7 +241,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 413
+      "lines": 425
     }
   },
   {
@@ -283,7 +283,7 @@
     "rel_path": "后妃宗室/三娘子.md",
     "name": "三娘子",
     "category": "后妃宗室",
-    "lines": 517,
+    "lines": 514,
     "rule1": {
       "pass": true,
       "count": 2,
@@ -311,7 +311,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 517
+      "lines": 514
     }
   },
   {
@@ -388,11 +388,11 @@
     "rel_path": "后妃宗室/李太后.md",
     "name": "李太后",
     "category": "后妃宗室",
-    "lines": 450,
+    "lines": 465,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 67
+      "kw_hits": 74
     },
     "rule2": {
       "pass": true,
@@ -406,7 +406,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 25
+      "count": 26
     },
     "rule5": {
       "pass": true,
@@ -416,18 +416,53 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 450
+      "lines": 465
     }
   },
   {
     "rel_path": "后妃宗室/王喜姐.md",
     "name": "王喜姐",
     "category": "后妃宗室",
-    "lines": 214,
+    "lines": 310,
     "rule1": {
       "pass": true,
-      "count": 22,
-      "kw_hits": 63
+      "count": 2,
+      "kw_hits": 100
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 13
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 10
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 310
+    }
+  },
+  {
+    "rel_path": "后妃宗室/郑贵妃.md",
+    "name": "郑贵妃",
+    "category": "后妃宗室",
+    "lines": 225,
+    "rule1": {
+      "pass": true,
+      "count": 44,
+      "kw_hits": 127
     },
     "rule2": {
       "pass": true,
@@ -441,56 +476,17 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 21
+      "count": 8
     },
     "rule5": {
       "pass": true,
-      "missing": [
-        "字号"
-      ],
+      "missing": [],
       "has_section": true
     },
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 214
-    }
-  },
-  {
-    "rel_path": "后妃宗室/郑贵妃.md",
-    "name": "郑贵妃",
-    "category": "后妃宗室",
-    "lines": 321,
-    "rule1": {
-      "pass": true,
-      "count": 19,
-      "kw_hits": 68
-    },
-    "rule2": {
-      "pass": true,
-      "offending": []
-    },
-    "rule3": {
-      "pass": true,
-      "title": "存疑 & 待查",
-      "content": 10
-    },
-    "rule4": {
-      "pass": true,
-      "title": "来源汇总",
-      "count": 32
-    },
-    "rule5": {
-      "pass": true,
-      "missing": [
-        "字号"
-      ],
-      "has_section": true
-    },
-    "rule6": {
-      "pass": true,
-      "status": "ok",
-      "lines": 321
+      "lines": 225
     }
   },
   {
@@ -532,11 +528,11 @@
     "rel_path": "外国人物/丰臣秀吉.md",
     "name": "丰臣秀吉",
     "category": "外国人物",
-    "lines": 258,
+    "lines": 900,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 3
+      "count": 18,
+      "kw_hits": 91
     },
     "rule2": {
       "pass": true,
@@ -545,12 +541,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 6
+      "content": 7
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 39
+      "count": 28
     },
     "rule5": {
       "pass": true,
@@ -560,7 +556,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 258
+      "lines": 900
     }
   },
   {
@@ -602,11 +598,11 @@
     "rel_path": "外国人物/利玛窦.md",
     "name": "利玛窦",
     "category": "外国人物",
-    "lines": 122,
+    "lines": 263,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 6
+      "count": 15,
+      "kw_hits": 69
     },
     "rule2": {
       "pass": true,
@@ -615,12 +611,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 8
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 7
+      "count": 18
     },
     "rule5": {
       "pass": true,
@@ -629,19 +625,19 @@
     },
     "rule6": {
       "pass": true,
-      "status": "short",
-      "lines": 122
+      "status": "ok",
+      "lines": 263
     }
   },
   {
     "rel_path": "外国人物/努尔哈赤.md",
     "name": "努尔哈赤",
     "category": "外国人物",
-    "lines": 201,
+    "lines": 212,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 16
+      "count": 3,
+      "kw_hits": 22
     },
     "rule2": {
       "pass": true,
@@ -650,7 +646,7 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 6
+      "content": 7
     },
     "rule4": {
       "pass": true,
@@ -665,18 +661,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 201
+      "lines": 212
     }
   },
   {
     "rel_path": "外国人物/小西行长.md",
     "name": "小西行长",
     "category": "外国人物",
-    "lines": 258,
+    "lines": 272,
     "rule1": {
       "pass": true,
       "count": 5,
-      "kw_hits": 13
+      "kw_hits": 29
     },
     "rule2": {
       "pass": true,
@@ -700,18 +696,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 258
+      "lines": 272
     }
   },
   {
     "rel_path": "外国人物/李舜臣.md",
     "name": "李舜臣",
     "category": "外国人物",
-    "lines": 313,
+    "lines": 330,
     "rule1": {
       "pass": true,
-      "count": 3,
-      "kw_hits": 9
+      "count": 5,
+      "kw_hits": 19
     },
     "rule2": {
       "pass": true,
@@ -735,14 +731,14 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 313
+      "lines": 330
     }
   },
   {
     "rel_path": "外国人物/范礼安.md",
     "name": "范礼安",
     "category": "外国人物",
-    "lines": 244,
+    "lines": 253,
     "rule1": {
       "pass": true,
       "count": 2,
@@ -760,7 +756,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 14
+      "count": 16
     },
     "rule5": {
       "pass": true,
@@ -770,18 +766,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 244
+      "lines": 253
     }
   },
   {
     "rel_path": "宗教人物/憨山德清.md",
     "name": "憨山德清",
     "category": "宗教人物",
-    "lines": 364,
+    "lines": 379,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 13
+      "kw_hits": 17
     },
     "rule2": {
       "pass": true,
@@ -790,7 +786,7 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 16
+      "content": 19
     },
     "rule4": {
       "pass": true,
@@ -805,18 +801,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 364
+      "lines": 379
     }
   },
   {
     "rel_path": "宗教人物/紫柏真可.md",
     "name": "紫柏真可",
     "category": "宗教人物",
-    "lines": 218,
+    "lines": 228,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 7
+      "kw_hits": 12
     },
     "rule2": {
       "pass": true,
@@ -840,14 +836,14 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 218
+      "lines": 228
     }
   },
   {
     "rel_path": "宗教人物/莲池袾宏.md",
     "name": "莲池袾宏",
     "category": "宗教人物",
-    "lines": 299,
+    "lines": 308,
     "rule1": {
       "pass": true,
       "count": 2,
@@ -860,7 +856,7 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 25
+      "content": 28
     },
     "rule4": {
       "pass": true,
@@ -875,7 +871,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 299
+      "lines": 308
     }
   },
   {
@@ -917,11 +913,11 @@
     "rel_path": "宦官/陈矩.md",
     "name": "陈矩",
     "category": "宦官",
-    "lines": 295,
+    "lines": 307,
     "rule1": {
       "pass": true,
-      "count": 10,
-      "kw_hits": 95
+      "count": 12,
+      "kw_hits": 100
     },
     "rule2": {
       "pass": true,
@@ -935,7 +931,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 13
+      "count": 14
     },
     "rule5": {
       "pass": true,
@@ -945,7 +941,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 295
+      "lines": 307
     }
   },
   {
@@ -1022,11 +1018,11 @@
     "rel_path": "帝王/朱翊钧.md",
     "name": "朱翊钧",
     "category": "帝王",
-    "lines": 251,
+    "lines": 355,
     "rule1": {
       "pass": true,
-      "count": 27,
-      "kw_hits": 70
+      "count": 36,
+      "kw_hits": 166
     },
     "rule2": {
       "pass": true,
@@ -1035,12 +1031,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 8
+      "content": 12
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 14
+      "count": 9
     },
     "rule5": {
       "pass": true,
@@ -1050,7 +1046,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 251
+      "lines": 355
     }
   },
   {
@@ -1092,11 +1088,11 @@
     "rel_path": "文人学者/何心隐.md",
     "name": "何心隐",
     "category": "文人学者",
-    "lines": 406,
+    "lines": 415,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 5
+      "kw_hits": 6
     },
     "rule2": {
       "pass": true,
@@ -1110,7 +1106,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 11
+      "count": 10
     },
     "rule5": {
       "pass": true,
@@ -1120,18 +1116,125 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 406
+      "lines": 415
+    }
+  },
+  {
+    "rel_path": "文人学者/何良俊.md",
+    "name": "何良俊",
+    "category": "文人学者",
+    "lines": 376,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 45
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "九、存疑 & 待查",
+      "content": 7
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十、来源汇总",
+      "count": 26
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [
+        "籍贯"
+      ],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 376
+    }
+  },
+  {
+    "rel_path": "文人学者/夏允彝.md",
+    "name": "夏允彝",
+    "category": "文人学者",
+    "lines": 379,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 53
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "九、存疑 & 待查",
+      "content": 9
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十、来源汇总",
+      "count": 43
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 379
+    }
+  },
+  {
+    "rel_path": "文人学者/夏完淳.md",
+    "name": "夏完淳",
+    "category": "文人学者",
+    "lines": 471,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 56
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "十、存疑 & 待查",
+      "content": 6
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十一、来源汇总（三层）",
+      "count": 37
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 471
     }
   },
   {
     "rel_path": "文人学者/归有光.md",
     "name": "归有光",
     "category": "文人学者",
-    "lines": 323,
+    "lines": 333,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 25
+      "count": 4,
+      "kw_hits": 40
     },
     "rule2": {
       "pass": true,
@@ -1155,18 +1258,58 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 323
+      "lines": 333
+    }
+  },
+  {
+    "rel_path": "文人学者/徐孚远.md",
+    "name": "徐孚远",
+    "category": "文人学者",
+    "lines": 235,
+    "rule1": {
+      "pass": true,
+      "count": 23,
+      "kw_hits": 100
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 9
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 27
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "生卒",
+        "字号",
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": false
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 235
     }
   },
   {
     "rel_path": "文人学者/徐渭.md",
     "name": "徐渭",
     "category": "文人学者",
-    "lines": 202,
+    "lines": 215,
     "rule1": {
       "pass": true,
-      "count": 5,
-      "kw_hits": 29
+      "count": 8,
+      "kw_hits": 41
     },
     "rule2": {
       "pass": true,
@@ -1190,18 +1333,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 202
+      "lines": 215
     }
   },
   {
     "rel_path": "文人学者/朱载堉.md",
     "name": "朱载堉",
     "category": "文人学者",
-    "lines": 353,
+    "lines": 362,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 18
+      "kw_hits": 25
     },
     "rule2": {
       "pass": true,
@@ -1225,18 +1368,67 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 353
+      "lines": 362
+    }
+  },
+  {
+    "rel_path": "文人学者/李中梓.md",
+    "name": "李中梓",
+    "category": "文人学者",
+    "lines": 255,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 3
+    },
+    "rule2": {
+      "pass": false,
+      "offending": [
+        [
+          60,
+          "然需注意，李氏与喻嘉言、张景岳之实际交往证据，现存多属间接记载或后世推衍，二人是否曾有直接面谈或书信往来，文献未载明，故存疑待考。[来源：存疑]"
+        ],
+        [
+          163,
+          "关于李氏晚年之具体行止，因顺治年间文献记载较为零散，其是否曾徙居、是否受清廷征召等细节，尚缺直接史料佐证，多属后世推测，故存疑待考。[来源：存疑]"
+        ]
+      ]
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 6
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 23
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "生卒",
+        "字号",
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": false
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 255
     }
   },
   {
     "rel_path": "文人学者/李时珍.md",
     "name": "李时珍",
     "category": "文人学者",
-    "lines": 261,
+    "lines": 516,
     "rule1": {
       "pass": true,
-      "count": 4,
-      "kw_hits": 19
+      "count": 13,
+      "kw_hits": 35
     },
     "rule2": {
       "pass": true,
@@ -1245,12 +1437,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 1
+      "content": 31
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 14
+      "count": 12
     },
     "rule5": {
       "pass": true,
@@ -1260,7 +1452,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 261
+      "lines": 516
     }
   },
   {
@@ -1296,6 +1488,55 @@
       "pass": true,
       "status": "ok",
       "lines": 262
+    }
+  },
+  {
+    "rel_path": "文人学者/李雯.md",
+    "name": "李雯",
+    "category": "文人学者",
+    "lines": 271,
+    "rule1": {
+      "pass": true,
+      "count": 15,
+      "kw_hits": 55
+    },
+    "rule2": {
+      "pass": false,
+      "offending": [
+        [
+          137,
+          "**同时代明遗民圈的态度**：陈子龙、夏允彝等几社旧友对李雯降清之具体反应，现存一手史料并不充分。陈子龙甲申之变后南返松江，参与抗清军事活动，顺治四年（1647"
+        ],
+        [
+          169,
+          "**陈子龙殉国前对李雯降清之态度**：现存史料不足，未见可靠的一手书信或同时代记载明确记录陈子龙对此之评价。陈子龙顺治四年五月殉国前，是否知悉李雯已卒，二人是否"
+        ]
+      ]
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 15
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 43
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "生卒",
+        "字号",
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": false
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 271
     }
   },
   {
@@ -1337,11 +1578,11 @@
     "rel_path": "文人学者/王世贞.md",
     "name": "王世贞",
     "category": "文人学者",
-    "lines": 169,
+    "lines": 181,
     "rule1": {
       "pass": true,
-      "count": 8,
-      "kw_hits": 38
+      "count": 10,
+      "kw_hits": 51
     },
     "rule2": {
       "pass": true,
@@ -1350,12 +1591,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 7
+      "content": 9
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 26
+      "count": 25
     },
     "rule5": {
       "pass": true,
@@ -1365,18 +1606,18 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 169
+      "lines": 181
     }
   },
   {
     "rel_path": "文人学者/王畿.md",
     "name": "王畿",
     "category": "文人学者",
-    "lines": 207,
+    "lines": 223,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 21
+      "count": 3,
+      "kw_hits": 36
     },
     "rule2": {
       "pass": true,
@@ -1390,7 +1631,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 10
+      "count": 12
     },
     "rule5": {
       "pass": true,
@@ -1400,18 +1641,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 207
+      "lines": 223
     }
   },
   {
-    "rel_path": "文人学者/董其昌.md",
-    "name": "董其昌",
+    "rel_path": "文人学者/祁彪佳.md",
+    "name": "祁彪佳",
     "category": "文人学者",
-    "lines": 184,
+    "lines": 442,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 8
+      "kw_hits": 26
     },
     "rule2": {
       "pass": true,
@@ -1420,7 +1661,82 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 5
+      "content": 8
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 32
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "生卒",
+        "字号",
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": false
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 442
+    }
+  },
+  {
+    "rel_path": "文人学者/莫是龙.md",
+    "name": "莫是龙",
+    "category": "文人学者",
+    "lines": 720,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 59
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "九、存疑 & 待查",
+      "content": 7
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十、来源汇总",
+      "count": 22
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 720
+    }
+  },
+  {
+    "rel_path": "文人学者/董其昌.md",
+    "name": "董其昌",
+    "category": "文人学者",
+    "lines": 193,
+    "rule1": {
+      "pass": true,
+      "count": 4,
+      "kw_hits": 19
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 6
     },
     "rule4": {
       "pass": true,
@@ -1435,7 +1751,129 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 184
+      "lines": 193
+    }
+  },
+  {
+    "rel_path": "文人学者/陈子龙.md",
+    "name": "陈子龙",
+    "category": "文人学者",
+    "lines": 760,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 100
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 7
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 11
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 760
+    }
+  },
+  {
+    "rel_path": "文人学者/陈继儒.md",
+    "name": "陈继儒",
+    "category": "文人学者",
+    "lines": 366,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 87
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "九、存疑 & 待查",
+      "content": 9
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十、来源汇总",
+      "count": 32
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 366
+    }
+  },
+  {
+    "rel_path": "文人学者/韩希孟.md",
+    "name": "韩希孟",
+    "category": "文人学者",
+    "lines": 299,
+    "rule1": {
+      "pass": true,
+      "count": 8,
+      "kw_hits": 15
+    },
+    "rule2": {
+      "pass": false,
+      "offending": [
+        [
+          188,
+          "现代工艺美术史著作中，田自秉《中国工艺美术史》、王家树主编《中国工艺美术史》等均对韩希孟及顾绣有专节论述 [来源：待查具体卷次页码]。宗白华《美学散步》中涉及画"
+        ],
+        [
+          190,
+          "《中国美术全集·工艺美术编·印染织绣》收录韩希孟绣作图像 [来源：待查具体卷次]。嵇若昕《云间冠盖：上海博物馆藏明清松江地区绘画选粹》涉及顾绣与松江画派之关系 "
+        ]
+      ]
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 10
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 30
+    },
+    "rule5": {
+      "pass": false,
+      "missing": [
+        "生卒",
+        "字号",
+        "籍贯",
+        "身份/官职"
+      ],
+      "has_section": false
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 299
     }
   },
   {
@@ -1509,6 +1947,41 @@
     }
   },
   {
+    "rel_path": "武将/张经.md",
+    "name": "张经",
+    "category": "武将",
+    "lines": 677,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 87
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "十、存疑 & 待查",
+      "content": 29
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十一、来源汇总",
+      "count": 14
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 677
+    }
+  },
+  {
     "rel_path": "武将/戚继光.md",
     "name": "戚继光",
     "category": "武将",
@@ -1547,11 +2020,11 @@
     "rel_path": "武将/李如松.md",
     "name": "李如松",
     "category": "武将",
-    "lines": 161,
+    "lines": 146,
     "rule1": {
       "pass": true,
-      "count": 5,
-      "kw_hits": 43
+      "count": 10,
+      "kw_hits": 62
     },
     "rule2": {
       "pass": true,
@@ -1560,12 +2033,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 6
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 9
+      "count": 8
     },
     "rule5": {
       "pass": true,
@@ -1575,18 +2048,18 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 161
+      "lines": 146
     }
   },
   {
     "rel_path": "武将/李成梁.md",
     "name": "李成梁",
     "category": "武将",
-    "lines": 654,
+    "lines": 666,
     "rule1": {
       "pass": true,
-      "count": 10,
-      "kw_hits": 75
+      "count": 11,
+      "kw_hits": 78
     },
     "rule2": {
       "pass": true,
@@ -1600,7 +2073,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 86
+      "count": 87
     },
     "rule5": {
       "pass": true,
@@ -1610,18 +2083,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 654
+      "lines": 666
     }
   },
   {
     "rel_path": "武将/胡宗宪.md",
     "name": "胡宗宪",
     "category": "武将",
-    "lines": 164,
+    "lines": 182,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 12
+      "kw_hits": 24
     },
     "rule2": {
       "pass": true,
@@ -1647,18 +2120,18 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 164
+      "lines": 182
     }
   },
   {
     "rel_path": "武将/谭纶.md",
     "name": "谭纶",
     "category": "武将",
-    "lines": 228,
+    "lines": 235,
     "rule1": {
       "pass": true,
-      "count": 3,
-      "kw_hits": 76
+      "count": 6,
+      "kw_hits": 89
     },
     "rule2": {
       "pass": true,
@@ -1682,7 +2155,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 228
+      "lines": 235
     }
   },
   {
@@ -1759,11 +2232,11 @@
     "rel_path": "武将/马芳.md",
     "name": "马芳",
     "category": "武将",
-    "lines": 171,
+    "lines": 215,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 45
+      "kw_hits": 42
     },
     "rule2": {
       "pass": true,
@@ -1772,12 +2245,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 10
+      "content": 7
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 15
+      "count": 16
     },
     "rule5": {
       "pass": true,
@@ -1786,19 +2259,19 @@
     },
     "rule6": {
       "pass": true,
-      "status": "short",
-      "lines": 171
+      "status": "ok",
+      "lines": 215
     }
   },
   {
     "rel_path": "武将/麻贵.md",
     "name": "麻贵",
     "category": "武将",
-    "lines": 155,
+    "lines": 167,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 79
+      "count": 4,
+      "kw_hits": 87
     },
     "rule2": {
       "pass": true,
@@ -1812,7 +2285,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 8
+      "count": 9
     },
     "rule5": {
       "pass": true,
@@ -1822,18 +2295,18 @@
     "rule6": {
       "pass": true,
       "status": "short",
-      "lines": 155
+      "lines": 167
     }
   },
   {
     "rel_path": "起义与叛乱者/杨应龙.md",
     "name": "杨应龙",
     "category": "起义与叛乱者",
-    "lines": 415,
+    "lines": 313,
     "rule1": {
       "pass": true,
-      "count": 2,
-      "kw_hits": 14
+      "count": 27,
+      "kw_hits": 161
     },
     "rule2": {
       "pass": true,
@@ -1841,13 +2314,13 @@
     },
     "rule3": {
       "pass": true,
-      "title": "存疑 & 待查",
-      "content": 20
+      "title": "十二、存疑 & 待查",
+      "content": 6
     },
     "rule4": {
       "pass": true,
-      "title": "来源汇总",
-      "count": 14
+      "title": "十三、来源汇总",
+      "count": 16
     },
     "rule5": {
       "pass": true,
@@ -1857,7 +2330,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 415
+      "lines": 313
     }
   },
   {
@@ -1931,10 +2404,45 @@
     }
   },
   {
+    "rel_path": "阁臣重臣/冯恩.md",
+    "name": "冯恩",
+    "category": "阁臣重臣",
+    "lines": 311,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 39
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "十、存疑 & 待查",
+      "content": 6
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十一、来源汇总（三层）",
+      "count": 30
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 311
+    }
+  },
+  {
     "rel_path": "阁臣重臣/叶向高.md",
     "name": "叶向高",
     "category": "阁臣重臣",
-    "lines": 419,
+    "lines": 416,
     "rule1": {
       "pass": true,
       "count": 2,
@@ -1962,7 +2470,77 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 419
+      "lines": 416
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/唐文献.md",
+    "name": "唐文献",
+    "category": "阁臣重臣",
+    "lines": 283,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 41
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "十一、存疑 & 待查",
+      "content": 5
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十二、来源汇总（三层）",
+      "count": 18
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 283
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/张以诚.md",
+    "name": "张以诚",
+    "category": "阁臣重臣",
+    "lines": 407,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 65
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "12. 存疑 & 待查",
+      "content": 8
+    },
+    "rule4": {
+      "pass": true,
+      "title": "13. 来源汇总（三层）",
+      "count": 21
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 407
     }
   },
   {
@@ -2004,11 +2582,11 @@
     "rel_path": "阁臣重臣/张居正.md",
     "name": "张居正",
     "category": "阁臣重臣",
-    "lines": 420,
+    "lines": 240,
     "rule1": {
       "pass": true,
-      "count": 22,
-      "kw_hits": 84
+      "count": 2,
+      "kw_hits": 168
     },
     "rule2": {
       "pass": true,
@@ -2017,12 +2595,12 @@
     "rule3": {
       "pass": true,
       "title": "存疑 & 待查",
-      "content": 9
+      "content": 7
     },
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 24
+      "count": 9
     },
     "rule5": {
       "pass": true,
@@ -2032,18 +2610,18 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 420
+      "lines": 240
     }
   },
   {
     "rel_path": "阁臣重臣/徐阶.md",
     "name": "徐阶",
     "category": "阁臣重臣",
-    "lines": 489,
+    "lines": 504,
     "rule1": {
       "pass": true,
       "count": 34,
-      "kw_hits": 104
+      "kw_hits": 108
     },
     "rule2": {
       "pass": true,
@@ -2057,7 +2635,7 @@
     "rule4": {
       "pass": true,
       "title": "来源汇总",
-      "count": 27
+      "count": 28
     },
     "rule5": {
       "pass": true,
@@ -2067,7 +2645,7 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 489
+      "lines": 504
     }
   },
   {
@@ -2103,6 +2681,76 @@
       "pass": true,
       "status": "ok",
       "lines": 403
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/方岳贡.md",
+    "name": "方岳贡",
+    "category": "阁臣重臣",
+    "lines": 267,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 75
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "10. 存疑 & 待查",
+      "content": 11
+    },
+    "rule4": {
+      "pass": true,
+      "title": "11. 来源汇总（三层）",
+      "count": 21
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 267
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/李待问.md",
+    "name": "李待问",
+    "category": "阁臣重臣",
+    "lines": 395,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 47
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "存疑 & 待查",
+      "content": 11
+    },
+    "rule4": {
+      "pass": true,
+      "title": "来源汇总",
+      "count": 28
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 395
     }
   },
   {
@@ -2284,11 +2932,11 @@
     "rel_path": "阁臣重臣/赵志皋.md",
     "name": "赵志皋",
     "category": "阁臣重臣",
-    "lines": 487,
+    "lines": 492,
     "rule1": {
       "pass": true,
       "count": 2,
-      "kw_hits": 52
+      "kw_hits": 56
     },
     "rule2": {
       "pass": true,
@@ -2312,7 +2960,77 @@
     "rule6": {
       "pass": true,
       "status": "ok",
-      "lines": 487
+      "lines": 492
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/钱龙锡.md",
+    "name": "钱龙锡",
+    "category": "阁臣重臣",
+    "lines": 344,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 112
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "10. 存疑 & 待查",
+      "content": 11
+    },
+    "rule4": {
+      "pass": true,
+      "title": "11. 来源汇总（三层）",
+      "count": 18
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 344
+    }
+  },
+  {
+    "rel_path": "阁臣重臣/陆深.md",
+    "name": "陆深",
+    "category": "阁臣重臣",
+    "lines": 285,
+    "rule1": {
+      "pass": true,
+      "count": 2,
+      "kw_hits": 82
+    },
+    "rule2": {
+      "pass": true,
+      "offending": []
+    },
+    "rule3": {
+      "pass": true,
+      "title": "十、存疑 & 待查",
+      "content": 6
+    },
+    "rule4": {
+      "pass": true,
+      "title": "十一、来源汇总（三层）",
+      "count": 20
+    },
+    "rule5": {
+      "pass": true,
+      "missing": [],
+      "has_section": true
+    },
+    "rule6": {
+      "pass": true,
+      "status": "ok",
+      "lines": 285
     }
   },
   {

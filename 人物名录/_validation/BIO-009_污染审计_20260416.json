@@ -1,75 +1,93 @@
 {
   "audit_time": "2026-04-16",
-  "total_scanned": 67,
+  "total_scanned": 86,
   "findings": {
     "replacement_char": [
       {
-        "file": "人物名录/外国人物/努尔哈赤.md",
-        "line": 18,
-        "col": 11,
-        "context": "- 字号：满语ᠨᡠᡵ�ᠠᴴ（努尔哈赤），尊号淑勒贝勒（聪睿王）",
-        "in_meta_section": false
-      },
-      {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 176,
+        "line": 173,
         "col": 13,
         "context": "  - 第 79 行 `�承/門生` → `師承/門生`\r",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 177,
+        "line": 174,
         "col": 13,
         "context": "  - 第 82 行 `�大猷` → `俞大猷`\r",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 178,
+        "line": 175,
         "col": 13,
         "context": "  - 第 87 行 `�嵩（1480—1567）` → `嚴嵩（",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 179,
+        "line": 176,
         "col": 14,
         "context": "  - 第 105 行 `�納徐渭` → `招納徐渭`\r",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 180,
+        "line": 177,
         "col": 14,
         "context": "  - 第 107 行 `�嵩書信門` → `嚴嵩書信門`\r",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 182,
+        "line": 179,
         "col": 14,
         "context": "  - 第 144 行 `�宗憲與徐渭` → `胡宗憲與徐渭`\r",
         "in_meta_section": true
       },
       {
         "file": "人物名录/武将/胡宗宪.md",
-        "line": 184,
+        "line": 181,
         "col": 26,
         "context": "第 118 行、第 144 行另一处 `�宗憲` 已随上下文 Edit 覆盖）\r",
         "in_meta_section": true
       }
     ],
     "shell_residue": [],
-    "anomaly_chars": [],
+    "anomaly_chars": [
+      {
+        "file": "人物名录/文人学者/何良俊.md",
+        "line": 181,
+        "col": 154,
+        "type": "pua",
+        "match": "'\\ue81b'",
+        "context": "，往往有出于二家之上者。\"他极称郑光祖《梅香》《倩女离魂》《王粲登楼》，以为出《"
+      },
+      {
+        "file": "人物名录/文人学者/何良俊.md",
+        "line": 183,
+        "col": 40,
+        "type": "pua",
+        "match": "'\\ue81b'",
+        "context": "《艺苑卮言》中批评：\"何元朗极称郑德辉《梅香》《倩女离魂》《王粲登楼》，以为出《"
+      },
+      {
+        "file": "人物名录/文人学者/何良俊.md",
+        "line": 183,
+        "col": 68,
+        "type": "pua",
+        "match": "'\\ue81b'",
+        "context": "魂》《王粲登楼》，以为出《西厢》之上。《梅香》虽有佳处，而中多陈腐措大语，且套数"
+      }
+    ],
     "file_anomaly": []
   },
   "summary": {
-    "clean_files": 65,
+    "clean_files": 84,
     "polluted_files": 2,
-    "total_issues": 8,
+    "total_issues": 10,
     "real_polluted_files": 1,
-    "replacement_char_real": 1,
+    "replacement_char_real": 0,
     "replacement_char_meta_ref": 7
   }
 }
